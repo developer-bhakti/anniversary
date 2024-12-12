@@ -47,8 +47,8 @@
                           </a>
                     </li>
                     <li class="menu-list-items">
-                        <a class="links" href="#for you">
-                              For You
+                        <a class="links" href="#gallery">
+                              Gallery
                           </a>
                     </li>
                 </ul>
@@ -202,7 +202,7 @@
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- for you Section -->
     <!-- <section class="services" id="services">
         <div class="services-heading">
             <h1 class="my-heading text-center">My Services</h1>
@@ -436,16 +436,41 @@
         </div>
     </section> -->
 
-    <!-- Footer section -->
-    <!-- <footer class="footer">
-        <div class="footer-content text-center">
-            <h4>
-                Copyright © 2023 All rights reserved |
-                This portfolio website template is created 
-                  by GeeksforGeeks.
-            </h4>
-            <div class="social-links">
-                <div class="footer-menu">
-                    <ul class="footer-menu-list">
-                        <li class="footer-list-items">
-                            <a -->
+ 
+
+           <!-- image gallery section all image in one div -->
+
+           <div class="heading">
+            <h1>Gallery 2023 To 2024</h1>
+         </div>
+
+     <div class="gallery">
+        <img src="./img/sara1.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+        
+        <img src="./img/sara5.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/sara3.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/sara4.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/sara2.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+        <img src="./img/sara7.jpg" 
+        alt="Image 2" class="gallery-img" onclick="showImage(src)">
+
+     </div>
+
+     <!-- image container where image will show in big size -->
+      <div class="image-popup-container" id="imagepopup">
+        <span class="close-button" onclick="closeImage()">*</span>
+        <img src=""alt="popup Image" id="popupImage">
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
